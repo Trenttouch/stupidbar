@@ -2,19 +2,28 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
-        "NavOpened": "false",
+        "LNavOpened": "true",
+        "NavOpened": "true",
         "Characters_PerPage": "1000",
         "AlertWI_约了么2.3.1.png": "true",
         "AlertRegex_约了么2.3.1.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
         "AlertWI_玉藻前1.png": "true",
-        "AlertWI_异世界.png": "true"
+        "AlertWI_异世界.png": "true",
+        "AlertWI_淫荡地城.png": "true",
+        "WINavOpened": "true",
+        "mediaWarningShown:Effi.png": "true",
+        "AllowGlobalStyles-Effi.png": "false",
+        "AlertWI_Vivi.png": "true",
+        "characterSearchFormVisible": "false",
+        "AlertWI_Bluebell Academy.png": "true",
+        "AllowGlobalStyles-绘绯 (Effi).png": "false",
+        "AlertWI_蓝铃学院 (Bluebell Academy).png": "true"
     },
     "currentVersion": "1.13.2",
     "username": "鞑吉巴",
-    "active_character": null,
+    "active_character": "Free use world RPG.png",
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -222,9 +231,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": false,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
+        "sort_field": "date_last_chat",
         "sort_order": "desc",
-        "sort_rule": null,
         "font_scale": 1,
         "blur_strength": 5,
         "shadow_width": 3,
@@ -399,8 +407,10 @@
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
-        "external_media_allowed_overrides": [],
+        "forbid_external_media": false,
+        "external_media_allowed_overrides": [
+            "Effi.png"
+        ],
         "external_media_forbidden_overrides": [],
         "pin_styles": true,
         "click_to_edit": false,
@@ -498,8 +508,41 @@
             "custom": []
         },
         "connectionManager": {
-            "selectedProfile": "",
-            "profiles": []
+            "selectedProfile": "d1a81fee-d643-419a-b821-97bdb10ae41f",
+            "profiles": [
+                {
+                    "id": "d9af5ec1-32c9-4eb2-8a75-1ea303d2cfe7",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "custom",
+                    "preset": "Lyean3.09.1（0205改造）",
+                    "api-url": "https://wdxqhzjktyal.ap-southeast-1.clawcloudrun.com",
+                    "model": "gemini-2.5-pro",
+                    "proxy": "None",
+                    "stop-strings": "",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "merge",
+                    "secret-id": "61420e40-01d4-419c-8bf5-500ea838170c",
+                    "name": "custom gemini-2.5-pro - Lyean3.09.1（0205改造）"
+                },
+                {
+                    "id": "d1a81fee-d643-419a-b821-97bdb10ae41f",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "custom",
+                    "preset": "Lyean3.09.1（0205改造）",
+                    "api-url": "https://trenttouch233-hahahayeah.hf.space/v1",
+                    "model": "gemini-2.5-pro",
+                    "proxy": "None",
+                    "stop-strings": "",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "merge",
+                    "secret-id": "61420e40-01d4-419c-8bf5-500ea838170c",
+                    "name": "custom gemini-2.5-pro - Lyean3.09.1（0205改造） (1)"
+                }
+            ]
         },
         "dice": {},
         "regex": [
@@ -5009,6 +5052,72 @@
             "color": "",
             "color2": "",
             "create_date": 1754107498316
+        },
+        {
+            "id": "58f6fdc0-894e-420d-ab3c-9021fedf3623",
+            "name": "Green Eyes",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122147004
+        },
+        {
+            "id": "240f8c67-b81f-45f9-ae9d-3426d02c2bb8",
+            "name": "Pale Skin",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122147004
+        },
+        {
+            "id": "90e8e0b6-b43e-4ad5-9305-df4b266165b2",
+            "name": "Neighbor",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122147004
+        },
+        {
+            "id": "8975edee-c00a-465f-a042-0ec4e22f24c2",
+            "name": "neet",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122147004
+        },
+        {
+            "id": "cd04c164-46bc-4776-9372-efdb43f2aeb0",
+            "name": "Public Sex",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122147005
+        },
+        {
+            "id": "d57eb97a-927d-4b26-a41c-0de51c3420da",
+            "name": "Femboy",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1754122565482
         }
     ],
     "tag_map": {
@@ -5380,17 +5489,6 @@
         ],
         "Blue.png": [
             "d4699e0d-7ac1-451e-87fa-e09edac5b17a"
-        ],
-        "Bluebell Academy.png": [
-            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
-            "c8dddf22-636a-47b9-99e1-a6118fa600dc",
-            "be3c2080-77a4-4958-91c6-e6c1b1c2a48e",
-            "dad66805-cdba-48ec-850e-0c90df1b6128",
-            "6ee9847b-a3b9-4d80-9321-5c15a1f85670",
-            "b80cd4eb-ce15-407f-a62a-a20a242bc265",
-            "5430032c-e8b1-4c02-bc9c-979d452fd493",
-            "47b82acc-75c3-4b4e-9760-437b40f84253",
-            "b7cfd956-9fa8-44a2-87f6-de4e30659e19"
         ],
         "BonBon & ChuChu.png": [
             "d4699e0d-7ac1-451e-87fa-e09edac5b17a"
@@ -6671,7 +6769,69 @@
         "Spaceship Venus v2.png": [],
         "Succubus Prison RPG.png": [],
         "The Lab.png": [],
-        "Tohru.png": []
+        "Tohru.png": [],
+        "Vivi.png": [
+            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
+            "dad66805-cdba-48ec-850e-0c90df1b6128",
+            "c6c18c1e-bd24-4fd2-a676-aa9bf3e9d049",
+            "2d7ace1e-4b40-47df-bf38-04d0af28ffa2",
+            "02dc59d1-8d85-472a-b142-213a6b1fe55e",
+            "58f6fdc0-894e-420d-ab3c-9021fedf3623",
+            "240f8c67-b81f-45f9-ae9d-3426d02c2bb8",
+            "90e8e0b6-b43e-4ad5-9305-df4b266165b2",
+            "8975edee-c00a-465f-a042-0ec4e22f24c2",
+            "cd04c164-46bc-4776-9372-efdb43f2aeb0"
+        ],
+        "Free use world RPG.png": [
+            "f153c067-be76-44b3-9b4d-1fa6cd5c125e",
+            "b4017708-9270-40ca-97f8-98ab08f73bac",
+            "c1b99437-0121-4dd7-b2fe-30762dd61e7b",
+            "39047f8d-5479-41cd-b610-b4ac6dd9a335",
+            "5430032c-e8b1-4c02-bc9c-979d452fd493",
+            "dad66805-cdba-48ec-850e-0c90df1b6128",
+            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
+            "31b15fd1-3a2b-4ebd-b5cc-21407df1abc0",
+            "d7978293-666a-46b0-b1df-53ff7d20a4b4",
+            "14f44e9d-62ee-45a5-bba0-239b8d1a1612",
+            "b7cfd956-9fa8-44a2-87f6-de4e30659e19",
+            "d57eb97a-927d-4b26-a41c-0de51c3420da"
+        ],
+        "Reality Note (RPG).png": [
+            "b985cfc9-2dde-4f61-8365-7f2c728841f3",
+            "eed67830-54c0-4cd9-9eca-36742fde3f6f",
+            "dad66805-cdba-48ec-850e-0c90df1b6128",
+            "5c38ccf9-da0b-41a2-88ad-ffd374e39b2a",
+            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
+            "7144a215-1a95-4454-84a9-a876fa23c01c",
+            "b4017708-9270-40ca-97f8-98ab08f73bac"
+        ],
+        "绘绯 (Effi).png": [
+            "0dbfa113-93c3-47f1-8acb-748c61dfb70e",
+            "32e1cd71-2cad-4b9e-8f0d-5403e53e76b8",
+            "423c83eb-0a60-4602-a4a0-2f38805e18e7",
+            "39047f8d-5479-41cd-b610-b4ac6dd9a335",
+            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
+            "c8dddf22-636a-47b9-99e1-a6118fa600dc",
+            "dad66805-cdba-48ec-850e-0c90df1b6128",
+            "b8e3011a-960c-4aed-80ff-76275c99657b",
+            "f0c2287b-1006-47b2-8382-d39bf160f6a7",
+            "d7bd2d4b-9113-4f8b-92a1-0794454138c3",
+            "6ee9847b-a3b9-4d80-9321-5c15a1f85670",
+            "436187fb-2e8e-4dbe-9afb-dfa9abfce477",
+            "d7978293-666a-46b0-b1df-53ff7d20a4b4",
+            "72652872-0ca3-4431-a51b-831b8cb376e9"
+        ],
+        "蓝铃学院 (Bluebell Academy).png": [
+            "d4699e0d-7ac1-451e-87fa-e09edac5b17a",
+            "c8dddf22-636a-47b9-99e1-a6118fa600dc",
+            "be3c2080-77a4-4958-91c6-e6c1b1c2a48e",
+            "dad66805-cdba-48ec-850e-0c90df1b6128",
+            "6ee9847b-a3b9-4d80-9321-5c15a1f85670",
+            "b80cd4eb-ce15-407f-a62a-a20a242bc265",
+            "5430032c-e8b1-4c02-bc9c-979d452fd493",
+            "47b82acc-75c3-4b4e-9760-437b40f84253",
+            "b7cfd956-9fa8-44a2-87f6-de4e30659e19"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -7753,7 +7913,7 @@
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
         "custom_model": "gemini-2.5-pro",
-        "custom_url": "https://wdxqhzjktyal.ap-southeast-1.clawcloudrun.com",
+        "custom_url": "https://trenttouch233-hahahayeah.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
