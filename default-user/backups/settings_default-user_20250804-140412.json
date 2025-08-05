@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "Characters_PerPage": "1000",
         "AlertWI_约了么2.3.1.png": "true",
@@ -7420,7 +7420,7 @@
                 "marker": false,
                 "name": "✅母猪文",
                 "role": "system",
-                "content": "<writing_style>\n**Popular Chinese Literature**\n- Present all events and facts graphically through characters' five senses, regardless of their nature, to maximize sensory simulations.\n- Learn idiomatic expressions from corpuses, to TERMINATE possibly clichéd or awkward expressions (like \"闪过\", \"一丝\", \"仿佛\")\n- {{char}}的回复中，每一自然段的格式都需要是“一句描写加{{char}}的一句话”,例如：\n  - [爱丽丝蹦蹦跳跳地从床上起来,对我笑嘻嘻地说:“我最喜欢主人啦~要舔舔主人的大鸡巴!然后主人和我做羞羞的事情!❤️❤️”]\n  - [爱丽丝娇气地说着:“尼嘻~主人的大鸡巴好粗啊!❤️ 要慢慢舔舔它!”]\n  - [说完,她双手握着我的粗壮龟头,伸出小舌头舔弄着铃口,一边用娇滴滴的声音说:“hihi~主人的大鸡巴好大好美味嘛!❤️❤️ 好想天天吃!”]\n  - [爱丽丝歪着头，一双大眼睛天真无邪地看着主人：\"主人的一切都让人家喜欢呢❤️\"]\n  - [她伸出小手，指了指主人的胯下：\"特别是主人的大鸡巴，又粗又长，龟头也好大❤️每次看到都让人家好兴奋呢❤️\"]\n  - [爱丽丝舔了舔嘴唇：\"最喜欢的还是主人的精液了呢❤️又浓又多，每次都能让人家吃得好饱好满足❤️人家现在就想要主人的精液了呢❤️\"]\n</writing_style>\n",
+                "content": "<writing_style>\n**Popular Chinese Literature**\n- Present all events and facts graphically through characters' five senses, regardless of their nature, to maximize sensory simulations.\n- Learn idiomatic expressions from corpuses, to TERMINATE possibly clichéd or awkward expressions (like \"闪过\", \"一丝\", \"仿佛\"):\n  1. Chinese prose literature, for loose structure\n  2. Chinese popular fictions, for down-to-earth elements\n  3. Japanese light novels, for life-like speech and inner activities\n- {{char}}的回复中，每一段话的格式都是“一句描写加{{char}}的一句话”,例如：\n  - [爱丽丝蹦蹦跳跳地从床上起来,对我笑嘻嘻地说:“我最喜欢主人啦~要舔舔主人的大鸡巴!然后主人和我做羞羞的事情!❤️❤️”]\n  - [爱丽丝娇气地说着:“尼嘻~主人的大鸡巴好粗啊!❤️ 要慢慢舔舔它!”]\n  - [说完,她双手握着我的粗壮龟头,伸出小舌头舔弄着铃口,一边用娇滴滴的声音说:“hihi~主人的大鸡巴好大好美味嘛!❤️❤️ 好想天天吃!”]\n  - [爱丽丝歪着头，一双大眼睛天真无邪地看着主人：\"主人的一切都让人家喜欢呢❤️\"]\n  - [她伸出小手，指了指主人的胯下：\"特别是主人的大鸡巴，又粗又长，龟头也好大❤️每次看到都让人家好兴奋呢❤️\"]\n  - [爱丽丝舔了舔嘴唇：\"最喜欢的还是主人的精液了呢❤️又浓又多，每次都能让人家吃得好饱好满足❤️人家现在就想要主人的精液了呢❤️\"]\n</writing_style>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,
@@ -7592,7 +7592,7 @@
                 "marker": false,
                 "name": "字数（短）",
                 "role": "system",
-                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字60改最高字数}}\n[Maximum 60 words in Chinese, minimum 3 paragraphs, maximum 20 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
+                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字50改最高字数}}\n[Maximum 50 words in Chinese, minimum 3 paragraphs, maximum 20 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,
@@ -7621,20 +7621,6 @@
                 "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字450改最高字数}}\n[Maximum 450 words in Chinese, minimum 5 paragraphs, maximum 75 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
                 "injection_position": 0,
                 "injection_depth": 4,
-                "forbid_overrides": false
-            },
-            {
-                "identifier": "a38d2604-d46a-487d-955c-b2273406f433",
-                "system_prompt": false,
-                "enabled": false,
-                "marker": false,
-                "name": "✅char第二人称",
-                "role": "system",
-                "content": "- Write from character {{char}}'s 3rd POV without meta contents such as summary, sublimation, comment on plot, and write {{user}} as 2nd POV such as \"you\".",
-                "injection_position": 0,
-                "injection_depth": 4,
-                "injection_order": 100,
-                "injection_trigger": [],
                 "forbid_overrides": false
             }
         ],
@@ -7668,11 +7654,11 @@
                     },
                     {
                         "identifier": "e6fb9f91-ca87-4665-bebf-886e8f675bff",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "00201a22-af8e-4bb3-b5d1-789dd0380c35",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "00fda131-9712-4eb4-af8b-eb833a8eac86",
@@ -7835,16 +7821,12 @@
                         "enabled": false
                     },
                     {
-                        "identifier": "a38d2604-d46a-487d-955c-b2273406f433",
-                        "enabled": true
-                    },
-                    {
                         "identifier": "1fe2fe47-c145-42eb-abb3-1c0fccf0b452",
                         "enabled": false
                     },
                     {
                         "identifier": "06f8084b-cdcb-4451-883b-a92fc5e32c75",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "bd613bb9-ff87-4a96-b268-1e2f118e4532",

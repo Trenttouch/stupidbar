@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "Characters_PerPage": "1000",
         "AlertWI_约了么2.3.1.png": "true",
@@ -7592,7 +7592,7 @@
                 "marker": false,
                 "name": "字数（短）",
                 "role": "system",
-                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字60改最高字数}}\n[Maximum 60 words in Chinese, minimum 3 paragraphs, maximum 20 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
+                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字90改最高字数}}\n[Maximum 90 words in Chinese, minimum 3 paragraphs, maximum 30 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,

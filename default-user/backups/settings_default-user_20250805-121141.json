@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "Characters_PerPage": "1000",
         "AlertWI_约了么2.3.1.png": "true",
@@ -24,7 +24,7 @@
     },
     "currentVersion": "1.13.2",
     "username": "鞑吉巴",
-    "active_character": "小魅魔爱丽丝.png",
+    "active_character": null,
     "active_group": null,
     "user_avatar": "user-default.png",
     "amount_gen": 350,
@@ -7592,7 +7592,7 @@
                 "marker": false,
                 "name": "字数（短）",
                 "role": "system",
-                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字60改最高字数}}\n[Maximum 60 words in Chinese, minimum 3 paragraphs, maximum 20 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
+                "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字90改最高字数}}\n[Maximum 90 words in Chinese, minimum 3 paragraphs, maximum 30 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,
@@ -7621,20 +7621,6 @@
                 "content": "<content_format> {{//修改Chinese可以更改输出语言，如果需要完全更动语言，还要修改CoT中的措辞，否则会发生夹英语或者夹中文的尴尬问题。修改数字450改最高字数}}\n[Maximum 450 words in Chinese, minimum 5 paragraphs, maximum 75 words in Chinese in each paragraph, exactly adhere to thinking without tags]",
                 "injection_position": 0,
                 "injection_depth": 4,
-                "forbid_overrides": false
-            },
-            {
-                "identifier": "a38d2604-d46a-487d-955c-b2273406f433",
-                "system_prompt": false,
-                "enabled": false,
-                "marker": false,
-                "name": "✅char第二人称",
-                "role": "system",
-                "content": "- Write from character {{char}}'s 3rd POV without meta contents such as summary, sublimation, comment on plot, and write {{user}} as 2nd POV such as \"you\".",
-                "injection_position": 0,
-                "injection_depth": 4,
-                "injection_order": 100,
-                "injection_trigger": [],
                 "forbid_overrides": false
             }
         ],
@@ -7835,16 +7821,12 @@
                         "enabled": false
                     },
                     {
-                        "identifier": "a38d2604-d46a-487d-955c-b2273406f433",
-                        "enabled": true
-                    },
-                    {
                         "identifier": "1fe2fe47-c145-42eb-abb3-1c0fccf0b452",
                         "enabled": false
                     },
                     {
                         "identifier": "06f8084b-cdcb-4451-883b-a92fc5e32c75",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "bd613bb9-ff87-4a96-b268-1e2f118e4532",
